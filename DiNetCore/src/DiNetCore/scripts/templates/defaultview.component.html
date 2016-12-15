@@ -1,0 +1,10 @@
+﻿<div class="jumbotron text-center">
+	<h2>{{_captionText}}</h2>
+</div>
+
+<div class="navbar-form navbar-left" role="textbox">
+	<div class="form-group">
+		<input type="text" [(ngModel)]="_questionText" class="form-control" placeholder="Ask me any Question . . .">
+	</div>
+	<button type="submit" class="btn btn-default" (click)="postQuestion()">Go</button>
+</div>

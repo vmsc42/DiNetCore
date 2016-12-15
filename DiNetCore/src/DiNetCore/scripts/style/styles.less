@@ -1,0 +1,68 @@
+
+@active-red: #d14e4e;
+@app-background: #e6e6e6;
+@app-color: #004977;
+@app-footer-background: #7f7f7f;
+@app-footer-color: #fff;
+
+/* ############################################################################### */
+html, body {
+	margin: 0;
+	height: 100%;
+	width: 100%;
+	cursor: default;
+	user-select: none;
+	min-width: 500px;
+	min-height: 500px;
+	font-family: 'Hind', sans-serif;
+}
+
+copy-icon-in-wwwroot {
+	content: url("assets/favicon.ico");
+}
+
+/* ############################################################################### */
+/* DiAppComponent styles */
+/* ############################################################################### */
+di-app {
+	margin: 0;
+	height: 100%;
+	width: 100%;
+	display: table;
+	background-color: @app-background;
+	color: @app-color;
+}
+
+di-app .navbar-default {
+	margin: 0 !important;
+	border-radius: 0px;
+}
+
+di-app a.nav-link-active {
+	color: @active-red !important;
+}
+
+di-app .panel-footer {
+	background-color: @app-footer-background;
+	color: @app-footer-color;
+	border: 0;
+	border-radius: 0;
+}
+
+
+/* ############################################################################### */
+/* NotFoundComponent styles */
+/* ############################################################################### */
+app-404 {
+	height: 100%;
+	display: block;
+	width: 100%;
+	background-color: #e1d4d0;
+}
+
+app-404 .jumbotron {
+	background: none;
+}
+
+@import (inline) "defaultview.component.less";
+@import (inline) "about.component.less";

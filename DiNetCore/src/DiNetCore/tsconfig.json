@@ -1,0 +1,33 @@
+{
+	"compilerOptions": {
+		"target": "es5",
+		"module": "commonjs",
+		"moduleResolution": "node",
+		"sourceMap": true,
+		"emitDecoratorMetadata": true,
+		"experimentalDecorators": true,
+		"removeComments": true,
+		"noImplicitAny": true,
+		"skipLibCheck": true,
+		"lib": [
+			"es2015",
+			"dom"
+		],
+		"types": [
+			"node"
+		]
+	},
+	"files": [
+		"scripts/app.modules.ts",
+		"scripts/main.ts"
+	],
+	"exclude": [
+		"node_modules",
+		"scripts"
+	],
+	"awesomeTypescriptLoaderOptions": {
+		"useWebpackText": true
+	},
+	"compileOnSave": false,
+	"buildOnSave": false
+}
