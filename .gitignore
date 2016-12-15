@@ -309,17 +309,8 @@ $RECYCLE.BIN/
 aot/
 
 # TypeScript compilation files
+**/wwwroot/*
+**/scripts/*.js
+**/scripts/*.map
 **/scripts/**/*.js
 **/scripts/**/*.map
-
-**/scripts/components/**/*.js
-**/scripts/components/**/*.map
-
-**/scripts/directives/**/*.js
-**/scripts/directives/**/*.map
-
-**/scripts/model/**/*.js
-**/scripts/model/**/*.map
-
-**/scripts/services/**/*.js
-**/scripts/services/**/*.map
